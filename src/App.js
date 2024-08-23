@@ -154,7 +154,7 @@ function App() {
         reset
       </button>
       <img
-        src="/custom-cursor.png"
+        src={`${process.env.PUBLIC_URL}/custom-cursor.png`}
         alt="Custom Cursor"
         className="custom-cursor"
         style={{
